@@ -39,6 +39,7 @@ nav{
     color: #fff;
     font-size: 18px;
 }
+
 .nav-links ul li::after{
     content: "";
     background-color: #f44336;
@@ -87,7 +88,7 @@ nav .fa{
     display: none;
 }
 @media screen and (max-width:700px){
-    .item h1{
+    .item h2{
         font-size: 20px;
       
     }
@@ -111,9 +112,9 @@ nav .fa{
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-    }
+    }j
     .nav-links ul{
-        padding: 30px
+        padding: 50px
     }
 }
 /*courses*/
